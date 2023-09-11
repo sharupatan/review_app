@@ -1,5 +1,5 @@
 class PrivateController < ApplicationController
-  before_action :authenticate_user, except: [:login]
+  before_action :authenticate_user!
 
 	def profile
 		render json: current_user
