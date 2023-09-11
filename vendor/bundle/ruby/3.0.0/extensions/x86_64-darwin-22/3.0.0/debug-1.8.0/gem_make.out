@@ -1,0 +1,16 @@
+current directory: /Users/apple/Documents/tasks/review_app/vendor/bundle/ruby/3.0.0/gems/debug-1.8.0/ext/debug
+/Users/apple/.rvm/rubies/ruby-3.0.6/bin/ruby -I /Users/apple/.rvm/rubies/ruby-3.0.6/lib/ruby/3.0.0 -r ./siteconf20230912-28610-63efpk.rb extconf.rb
+creating Makefile
+
+current directory: /Users/apple/Documents/tasks/review_app/vendor/bundle/ruby/3.0.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= clean
+
+current directory: /Users/apple/Documents/tasks/review_app/vendor/bundle/ruby/3.0.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/apple/Documents/tasks/review_app/vendor/bundle/ruby/3.0.0/gems/debug-1.8.0/ext/debug
+make DESTDIR\= install
+/usr/local/bin/ginstall -c -m 0755 debug.bundle ./.gem.20230912-28610-uwgqt5/debug
