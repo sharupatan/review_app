@@ -1,13 +1,6 @@
 # require 'jwt'
 
 module UsersHelper
-  def authenticate_user
-		begin
-			user
-		rescue
-			render json: 'please login to access webpage! / you are un authenticated!'
-		end
-	end
 
 	def hmac_secret
 		'my$ecretK3y'
@@ -15,14 +8,6 @@ module UsersHelper
 
 	def generated_jwt_token(payload)
 		JWT.encode payload, hmac_secret, 'HS256'
-	end
-
-	def current_user
-		begin
-			user
-		rescue
-			'please login to access webpage! / you are un authenticated!'
-		end
 	end
 
 	def user
